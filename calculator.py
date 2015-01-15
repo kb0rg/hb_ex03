@@ -34,35 +34,35 @@ while True:
         if tokens[0].isalpha() or tokens[1].isalpha() or tokens[2].isalpha():
             print "Sorry, that is not a valid entry. \n Please enter a valid operator followed by a number or numbers"
 
-    else:
-        
-        num1 = float(tokens[1])
-        if tokens[0] != "cube" and tokens[0] != "square" and tokens[0] != "q": 
-            num2 = float(tokens[2])
+        else:
+            
+            num1 = float(tokens[1])
+            if tokens[0] != "cube" and tokens[0] != "square" and tokens[0] != "q": 
+                num2 = float(tokens[2])
 
-        if tokens[0] == "+":
-            print arithmetic.add(num1, num2)
+            if tokens[0] == "+":
+                print arithmetic.add(num1, num2)
 
-        if tokens[0] == "-":
-            print arithmetic.subtract(num1, num2)
+            if tokens[0] == "-":
+                print arithmetic.subtract(num1, num2)
 
-        if tokens[0] == "*":
-            print arithmetic.multiply(num1, num2)
+            if tokens[0] == "*":
+                print arithmetic.multiply(num1, num2)
 
-        if tokens[0] == "/":
-            print float(arithmetic.divide(num1, num2))
+            if tokens[0] == "/":
+                print float(arithmetic.divide(num1, num2))
 
-        if tokens[0] == "square":
-            print arithmetic.square(num1)
+            if tokens[0] == "square":
+                print arithmetic.square(num1)
 
-        if tokens[0] == "cube":
-            print arithmetic.cube(num1)
+            if tokens[0] == "cube":
+                print arithmetic.cube(num1)
 
-        if tokens[0] == "power":
-            print arithmetic.power(num1, num2)
+            if tokens[0] == "power":
+                print arithmetic.power(num1, num2)
 
-        if tokens[0] == "mod":
-            print arithmetic.power(num1, num2)
+            if tokens[0] == "mod":
+                print arithmetic.power(num1, num2)
 
 
 
