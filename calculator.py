@@ -17,7 +17,8 @@ import arithmetic
 input = raw_input(">")
 tokens = input.split(" ")
 num1 = int(tokens[1])
-num2 = int(tokens[2])
+if tokens[0] != "cube" and tokens[0] != "square": 
+    num2 = int(tokens[2])
 
 if tokens[0] == "+":
     print arithmetic.add(num1, num2)
